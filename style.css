@@ -1,0 +1,202 @@
+/*
+Theme Name: Paggy Pig
+Theme URI: //www.quackit.com/html/templates/download/bryantsmith/SimpleFactorial/
+Author:Dima Guzak
+Author URI: //www.quackit.com/
+Description: Peggy Pig Site
+License: GNU General Public License v2 or later
+License URI: //www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #A060AA url(images/img1.jpg) repeat-y center top;
+	font: italic medium Georgia, "Times New Roman", Times, serif;
+	color:#8B008B;
+    
+}
+
+h1, h2, h3, h4, h5, h6, form {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+}
+
+h4, h5, h6 {
+}
+
+p, ul, ol, blockquote {
+	margin-top: 0;
+}
+
+a { 
+	padding: 10px;
+	text-decoration: none;
+	color:#8B008B;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#B35BC1;
+}
+
+img {
+	border: none;
+}
+
+/* Header */
+
+#header {
+	width: 720px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 410px;
+	height: 100px;
+	padding: 0 0 0 60px;
+	background: url(images/piglogo.png) no-repeat left center;
+}
+
+#logo h1 {
+	padding-left: 40px;
+	font-size: 2.5em;
+}
+
+#logo h2 {
+	font-size: 1em;
+}
+
+#logo a {
+	background: none;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 200px;
+	padding-top: 13px;
+}
+#submit1 {
+    border: none;
+	background: #8B008B;
+	color: #FFFFFF;
+}
+/* Content */
+
+#content {
+	width: 720px;
+	margin: 0 auto;
+	
+}
+
+/* Column One */
+
+#colOne {
+	float: left;
+	width: 470px;
+min-width: 70%;
+}
+
+/* Column Two */
+
+#colTwo {
+	float: right;
+	width: 200px;
+	
+}
+
+#colTwo ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#colTwo li ul {
+	padding: 1em 0;
+}
+
+#colTwo li a {
+	padding-left: 15px;
+	background: url(images/img7.jpg) no-repeat left center;
+}
+
+/* Latest Post */
+
+#latest-post {
+	padding: 50px 0 0 0;
+	background: url(images/img5.jpg) no-repeat center top;
+	
+}
+
+#latest-post .title {
+	padding: 0 0 0 30px;
+	background: url(images/img6.jpg) no-repeat left center;
+	font-size: 1.4em;
+}
+
+#latest-post .title a {
+	background: none;
+}
+
+#latest-post .posted {
+	padding: 0 0 2em 30px; 
+	font-size: 15px;
+}
+
+#latest-post .posted a {
+	background: none;
+}
+
+#latest-post .image {
+	float: left;
+	margin: .3em 1em 1em 0;
+}
+
+/* Recent Posts */
+
+#recent-posts {
+	padding: 50px 0 0 0;
+	background: url(images/img5.jpg) no-repeat center top;
+}
+
+#recent-posts .title {
+	padding: 0 0 0 30px;
+	background: url(images/img6.jpg) no-repeat left center;
+	font-size: 1.4em;
+}
+
+#recent-posts ul {
+	margin: 0;
+	padding: 20px 0 0 30px;
+	list-style: none;
+}
+
+#recent-posts li {
+	padding: 5px 0 10px 0;
+	background: url(images/img2.jpg) repeat-x left bottom;
+}
+
+#recent-posts a {
+	background: none;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 720px;
+	margin: 0 auto;
+	padding: 5em 0;
+	font-size: xx-small;
+}
